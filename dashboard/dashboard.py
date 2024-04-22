@@ -53,7 +53,7 @@ def weekday_data(df):
 
 # Start
 # Load main data
-main_df = pd.read_csv("main_data.csv")
+main_df = pd.read_csv("dashboard/main_data.csv")
 
 # Cleaning the data
 main_df = clean_data(main_df)

@@ -4,10 +4,15 @@
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit
+pip install -r requirements.txt
 ```
 
-## Run steamlit app
+## Run Jupyter Notebook
 ```
-streamlit run dashboard.py
+jupyter notebook
+```
+
+## Run Streamlit
+```
+streamlit run dashboard/dashboard.py
 ```
